@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Canonical pair selection trace</title>
+  <desc id="desc">Three normalized pool candidates are compared. A high-liquidity base-oriented pair wins while quote-oriented and low-liquidity candidates are rejected or ranked lower.</desc>
+  <rect width="1200" height="520" fill="#f7f9f8"/>
+  <text x="60" y="62" fill="#12181e" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="800">CANONICAL PAIR DECISION TRACE</text>
+  <text x="60" y="96" fill="#64717c" font-family="Inter,Arial,sans-serif" font-size="17">The resolver selects market evidence, not the first item returned by an API.</text>
+
+  <rect x="60" y="142" width="332" height="268" rx="8" fill="#ffffff" stroke="#cad2d8"/>
+  <text x="84" y="180" fill="#64717c" font-family="ui-monospace,monospace" font-size="13" font-weight="700">CANDIDATE A · BASE ORIENTED</text>
+  <text x="84" y="224" fill="#12181e" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800">TOKEN / WETH</text>
+  <text x="84" y="266" fill="#64717c" font-family="Inter,Arial,sans-serif" font-size="15">Liquidity</text>
+  <text x="354" y="266" text-anchor="end" fill="#12181e" font-family="ui-monospace,monospace" font-size="15">$184K</text>
+  <text x="84" y="300" fill="#64717c" font-family="Inter,Arial,sans-serif" font-size="15">24h volume</text>
+  <text x="354" y="300" text-anchor="end" fill="#12181e" font-family="ui-monospace,monospace" font-size="15">$92K</text>
+  <text x="84" y="334" fill="#64717c" font-family="Inter,Arial,sans-serif" font-size="15">Market cap</text>
+  <text x="354" y="334" text-anchor="end" fill="#12181e" font-family="ui-monospace,monospace" font-size="15">present</text>
+  <rect x="84" y="360" width="284" height="30" rx="5" fill="#daf6eb"/>
+  <text x="226" y="381" text-anchor="middle" fill="#087f5b" font-family="ui-monospace,monospace" font-size="13" font-weight="700">SELECTED · SCORE 173</text>
+
+  <rect x="434" y="142" width="332" height="268" rx="8" fill="#ffffff" stroke="#cad2d8"/>
+  <text x="458" y="180" fill="#64717c" font-family="ui-monospace,monospace" font-size="13" font-weight="700">CANDIDATE B · BASE ORIENTED</text>
+  <text x="458" y="224" fill="#12181e" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800">TOKEN / USDC</text>
+  <text x="458" y="266" fill="#64717c" font-family="Inter,Arial,sans-serif" font-size="15">Liquidity</text>
+  <text x="728" y="266" text-anchor="end" fill="#12181e" font-family="ui-monospace,monospace" font-size="15">$12K</text>
+  <text x="458" y="300" fill="#64717c" font-family="Inter,Arial,sans-serif" font-size="15">24h volume</text>
+  <text x="728" y="300" text-anchor="end" fill="#12181e" font-family="ui-monospace,monospace" font-size="15">$3K</text>
+  <text x="458" y="334" fill="#64717c" font-family="Inter,Arial,sans-serif" font-size="15">Valuation</text>
+  <text x="728" y="334" text-anchor="end" fill="#12181e" font-family="ui-monospace,monospace" font-size="15">FDV only</text>
+  <rect x="458" y="360" width="284" height="30" rx="5" fill="#eef1f3"/>
+  <text x="600" y="381" text-anchor="middle" fill="#64717c" font-family="ui-monospace,monospace" font-size="13" font-weight="700">RANKED LOWER · SCORE 132</text>
+
+  <rect x="808" y="142" width="332" height="268" rx="8" fill="#ffffff" stroke="#e2b8b8"/>
+  <text x="832" y="180" fill="#9b5454" font-family="ui-monospace,monospace" font-size="13" font-weight="700">CANDIDATE C · WRONG SIDE</text>
+  <text x="832" y="224" fill="#12181e" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800">WETH / TOKEN</text>
+  <text x="832" y="266" fill="#64717c" font-family="Inter,Arial,sans-serif" font-size="15">Returned price</text>
+  <text x="1102" y="266" text-anchor="end" fill="#12181e" font-family="ui-monospace,monospace" font-size="15">WETH price</text>
+  <text x="832" y="300" fill="#64717c" font-family="Inter,Arial,sans-serif" font-size="15">Requested token</text>
+  <text x="1102" y="300" text-anchor="end" fill="#12181e" font-family="ui-monospace,monospace" font-size="15">quote side</text>
+  <text x="832" y="334" fill="#64717c" font-family="Inter,Arial,sans-serif" font-size="15">Usable</text>
+  <text x="1102" y="334" text-anchor="end" fill="#9b5454" font-family="ui-monospace,monospace" font-size="15">no</text>
+  <rect x="832" y="360" width="284" height="30" rx="5" fill="#fae7e7"/>
+  <text x="974" y="381" text-anchor="middle" fill="#9b3434" font-family="ui-monospace,monospace" font-size="13" font-weight="700">REJECTED BEFORE RANKING</text>
+
+  <path d="M60 458H1140" stroke="#cad2d8"/>
+  <text x="60" y="490" fill="#64717c" font-family="ui-monospace,monospace" font-size="13">ILLUSTRATIVE VALUES · ACTUAL RULES FROM src/scoring.ts AND PROVIDER ADAPTERS</text>
+</svg>

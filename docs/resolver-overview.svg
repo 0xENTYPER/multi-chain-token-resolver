@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Multi-Chain Token Resolver architecture</title>
+  <desc id="desc">A chain and address enter two provider adapters, candidates are normalized and ranked, and an explainable token result is returned.</desc>
+  <rect width="1200" height="500" fill="#0b1016"/>
+  <path d="M0 1H1200M0 100H1200M0 200H1200M0 300H1200M0 400H1200" stroke="#17212b"/>
+  <path d="M100 0V500M300 0V500M500 0V500M700 0V500M900 0V500M1100 0V500" stroke="#121b24"/>
+  <text x="64" y="72" fill="#f5f7f8" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800">ONE TOKEN. MANY MARKETS.</text>
+  <text x="64" y="110" fill="#8d9aa7" font-family="Inter,Arial,sans-serif" font-size="18">Resolve identity, canonical liquidity and valuation without hiding uncertainty.</text>
+
+  <rect x="64" y="164" width="214" height="180" rx="8" fill="#111922" stroke="#344252"/>
+  <text x="86" y="198" fill="#56d7b5" font-family="ui-monospace,monospace" font-size="13" font-weight="700">01 / INPUT</text>
+  <text x="86" y="244" fill="#f5f7f8" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">Chain + address</text>
+  <text x="86" y="278" fill="#8d9aa7" font-family="ui-monospace,monospace" font-size="14">base</text>
+  <text x="86" y="306" fill="#8d9aa7" font-family="ui-monospace,monospace" font-size="14">0x21cf...b7ab</text>
+
+  <path d="M278 254H334" stroke="#56d7b5" stroke-width="2"/>
+  <path d="M326 246L334 254L326 262" fill="none" stroke="#56d7b5" stroke-width="2"/>
+
+  <rect x="334" y="146" width="234" height="216" rx="8" fill="#111922" stroke="#344252"/>
+  <text x="356" y="180" fill="#56d7b5" font-family="ui-monospace,monospace" font-size="13" font-weight="700">02 / PROVIDERS</text>
+  <rect x="356" y="204" width="190" height="54" rx="6" fill="#17222d"/>
+  <text x="374" y="237" fill="#f5f7f8" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">DexScreener</text>
+  <rect x="356" y="272" width="190" height="54" rx="6" fill="#17222d"/>
+  <text x="374" y="305" fill="#f5f7f8" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">GeckoTerminal</text>
+
+  <path d="M568 254H624" stroke="#56d7b5" stroke-width="2"/>
+  <path d="M616 246L624 254L616 262" fill="none" stroke="#56d7b5" stroke-width="2"/>
+
+  <rect x="624" y="146" width="234" height="216" rx="8" fill="#111922" stroke="#344252"/>
+  <text x="646" y="180" fill="#56d7b5" font-family="ui-monospace,monospace" font-size="13" font-weight="700">03 / DECISION</text>
+  <text x="646" y="220" fill="#f5f7f8" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">Validate orientation</text>
+  <text x="646" y="254" fill="#f5f7f8" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">Rank canonical pool</text>
+  <text x="646" y="288" fill="#f5f7f8" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">Merge metadata</text>
+  <text x="646" y="322" fill="#f5f7f8" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">Classify MCAP / FDV</text>
+
+  <path d="M858 254H914" stroke="#56d7b5" stroke-width="2"/>
+  <path d="M906 246L914 254L906 262" fill="none" stroke="#56d7b5" stroke-width="2"/>
+
+  <rect x="914" y="164" width="222" height="180" rx="8" fill="#10231f" stroke="#56d7b5"/>
+  <text x="936" y="198" fill="#56d7b5" font-family="ui-monospace,monospace" font-size="13" font-weight="700">04 / RESULT</text>
+  <text x="936" y="240" fill="#f5f7f8" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700">Explainable token</text>
+  <text x="936" y="276" fill="#56d7b5" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="800">HIGH · 90</text>
+  <text x="936" y="308" fill="#8d9aa7" font-family="ui-monospace,monospace" font-size="13">sources · warnings · age</text>
+
+  <text x="64" y="434" fill="#8d9aa7" font-family="ui-monospace,monospace" font-size="13">EVM + SOLANA</text>
+  <text x="1065" y="434" text-anchor="end" fill="#f5f7f8" font-family="ui-monospace,monospace" font-size="13">BUILT BY 0xENTYPER</text>
+</svg>
