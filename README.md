@@ -402,6 +402,12 @@ Provider data can be delayed, incomplete, or incorrect. This package improves se
 
 This repository contains a clean reference implementation, tests, CLI, and provider adapters. It intentionally excludes private production code, keys, paid API access, proprietary provider ranking, and product-specific storage.
 
+## Related work
+
+- [onchain-market-data-pipeline](https://github.com/0xENTYPER/onchain-market-data-pipeline) applies the same evidence-first approach at the Cloudflare edge.
+- [wallet-pnl-lab](https://github.com/0xENTYPER/wallet-pnl-lab) carries explicit provenance into realized-PnL accounting.
+- [PNLFlex](https://github.com/0xENTYPER/pnlflex) shows how resolved token data becomes a user-facing research and creator workflow.
+
 ## Author
 
 Built by [0xENTYPER](https://github.com/0xENTYPER).
